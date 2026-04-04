@@ -8,8 +8,36 @@ Murdoch Student ID : 36007211
 
 
 # 28th March 2026 - Session 1
-1) Setting up GitHub Account  
+### 1) Setting up GitHub Account  
    ➜ Created a GitHub account and created a repository for this module, for documentation.
    
-3) Installing Virtual Machine (VM)  
+### 2) Installing Virtual Machine (VM)  
   ➜ Downloaded and installed Oracle VirtualBox on my laptop. It is used to set up Ubuntu VM for the lab exercises.
+   - OS - Ubuntu (64-bit)
+   - RAM - 2GB
+   - Storage - 10GB
+  
+### 3) Linux commands learnt in class
+
+| Terminal Commands | What does it do? |
+| :---     | :----   |
+| sudo apt update    | Check for software updates  |
+| sudo apt upgrade -y    | Updates softwares if any |
+| pwd   | Show current path (Print Working Directory) |
+| ls    | List contents of a directory |
+| cd    | Change directory |
+| cd ..   | Moves one level up to directory |
+| cd /    | Moves to root directory |
+| cd -    | Moves to previous directory |
+| ip a    | returns the ip address of your own machine |
+| ping "link"    | pings the website |
+| hostname    | display and change host name |
+| df    | To see free space on disk |
+| free   | To see used and free memory |
+| exit   | End terminal session |
+| top   | Real time usage |
+| man   | Manual for the commands |
+| man ls  | Manual for ls |
+| mkdir "directory name" | Make new directory |
+| mkdir -p project/src/main | `-p` stands for parents in `mkdir` |
+
