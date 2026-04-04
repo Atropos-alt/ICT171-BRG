@@ -1,10 +1,10 @@
 # ICT171-BRG
 
-Student Name : Rachel Lee Jiaying
+Student Name: Rachel Lee Jiaying
 
-Kaplan Student ID : CT0390460
+Kaplan Student ID: CT0390460
 
-Murdoch Student ID : 36007211
+Murdoch Student ID: 36007211
 
 
 # 28th March 2026 - Session 1
