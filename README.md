@@ -45,5 +45,13 @@ Murdoch Student ID: 36007211
 This uses `systemctl list-units --type=service` to check the services running
 <img width="1295" height="815" alt="image" src="https://github.com/user-attachments/assets/2661d1fc-07f0-4efa-88b8-c1a5fcaaa7f4" />
 
-This uses `systemctl status snapd` to check the status of snapd, which manages, installs, and updates snap packages on Linux.
+This uses `systemctl status snapd` to check the status of snapd.
+`snapd` manages, installs, and updates snap packages on Linux.
 <img width="1292" height="813" alt="image" src="https://github.com/user-attachments/assets/f973d832-6b1e-4f43-8f5e-385bfccdd528" />
+
+### 5) File Permissions
+This creates an empty file called `testing.sh`.
+1/2
+<img width="1296" height="815" alt="image" src="https://github.com/user-attachments/assets/531645af-8e15-4613-b52c-182493385911" />
+2/2
+<img width="1294" height="816" alt="image" src="https://github.com/user-attachments/assets/2a954b35-ca1c-4b18-b751-d40395e276a2" />
