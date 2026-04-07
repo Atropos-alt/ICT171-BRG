@@ -51,12 +51,21 @@ Murdoch Student ID: 36007211
 
 ### 5) File Permissions
 ➜ This creates an empty file called `testing.sh`.  
+➜ `ls -l` is used to list the contents of a directory in a long listing format. But in this case it is used to check the file permission. This is before.  
 1/2
 <img width="1296" height="815" alt="image" src="https://github.com/user-attachments/assets/531645af-8e15-4613-b52c-182493385911" />
-➜ This changes the file permission.  
+
+➜ `chmod 755 testing.sh`changes the file permission.  
+➜ `ls -l` here confirms that the file permission has been changed successfully.  
 2/2
 <img width="1294" height="816" alt="image" src="https://github.com/user-attachments/assets/2a954b35-ca1c-4b18-b751-d40395e276a2" />
-➜ `755` means:
-    Owner `7` = Read (4), Write (2), Execute (1) ➜ _rwx_
-    Group `5` = Read (4), No Write (0), Execute (1) ➜ _r-x_
-    Others `5` = Read (4), No Write (0), Execute (1) ➜ _r-x_
+➜ `755` means:  
+    Owner `7` = Read `4`, Write `2`, Execute `1` ➜ _rwx_  
+    Group `5` = Read `4`, No Write `0`, Execute `1` ➜ _r-x_  
+    Others `5` = Read `4`, No Write `0`, Execute `1` ➜ _r-x_  
+
+### 6) Searching in the file, Searching for a file
+➜ Here we use `echo "testing" > notes.txt` to write `testing` into `notes.txt`  
+➜ Next, we use `find . -name "testing.sh"` to search for a file with the exact name  
+➜ Finally, we use `grep -r "testing" .` to search in all subdirectory. (Typo in screenshot)
+<img width="1291" height="814" alt="image" src="https://github.com/user-attachments/assets/d5726558-0e61-49ed-8080-1adbc1c5060f" />
