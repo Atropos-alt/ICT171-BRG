@@ -42,4 +42,8 @@ Murdoch Student ID: 36007211
 | mkdir -p project/src/main | `-p` stands for parents in `mkdir` |
 
 ### 4) Checking Linux services
+This uses `systemctl list-units --type=service` to check the services running
 <img width="1295" height="815" alt="image" src="https://github.com/user-attachments/assets/2661d1fc-07f0-4efa-88b8-c1a5fcaaa7f4" />
+
+This uses `systemctl status snapd` to check the status of snapd, which manages, installs, and updates snap packages on Linux.
+<img width="1292" height="813" alt="image" src="https://github.com/user-attachments/assets/f973d832-6b1e-4f43-8f5e-385bfccdd528" />
