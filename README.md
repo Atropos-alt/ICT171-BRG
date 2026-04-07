@@ -41,3 +41,5 @@ Murdoch Student ID: 36007211
 | mkdir "directory name" | Make new directory |
 | mkdir -p project/src/main | `-p` stands for parents in `mkdir` |
 
+### 4) Checking Linux services
+<img width="1295" height="815" alt="image" src="https://github.com/user-attachments/assets/2661d1fc-07f0-4efa-88b8-c1a5fcaaa7f4" />
