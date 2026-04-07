@@ -50,7 +50,7 @@ This uses `systemctl status snapd` to check the status of snapd.
 <img width="1292" height="813" alt="image" src="https://github.com/user-attachments/assets/f973d832-6b1e-4f43-8f5e-385bfccdd528" />
 
 ### 5) File Permissions
-This creates an empty file called `testing.sh`.
+This creates an empty file called `testing.sh`.  
 1/2
 <img width="1296" height="815" alt="image" src="https://github.com/user-attachments/assets/531645af-8e15-4613-b52c-182493385911" />
 2/2
